@@ -9,7 +9,7 @@ engine = pyttsx3.init()
 voices = engine.getProperty('voices')
 engine.setProperty('voice', voices[0].id)
 
-# Listen to the microphone input and respond with "yes sir" if it detects the word "saif"
+# Listen to the microphone input and respond with "yes sir" if it detects the word "david"
 with sr.Microphone() as source:
     print("Listening...")
     while True:
